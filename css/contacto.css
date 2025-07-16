@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*header*/
+header {
+    background-color: #071E22;
+}
+
+.navbar {
+    display: flex;
+    padding: 8px 40px;
+}
+
+.logo {
+    height: 100px;
+    margin-right: auto;
+}
+
+.listaServicios {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+/*main */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 15px;
+
+}
+
+/*footer*/
+.links {
+    background-color: #35524A;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
